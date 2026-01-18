@@ -20,22 +20,24 @@ system (macOS, Linux, or Windows) using native OS tools.
 - Identify physical (USB) and wireless (Bluetooth) attack surfaces
 - Detect unauthorised or foreign devices that could pose a security risk
 
-## Commands used to identify the operating system,kernel and hardware architecture 
-'sw_vers'
-'uname -a'
+## Commands used for:
 
-## Commands used for the shell information
-'echo $SHELL'
-'cat /etc/shells'
-'ps -p $$ -o comm='
+## operating system,kernel and hardware architecture 
+## 'sw_vers'
+## 'uname -a'
 
-## Commands used for identifying user & user privileges
-'whoamii'
-'id'
+## Shell information
+## 'echo $SHELL'
+## 'cat /etc/shells'
+## 'ps -p $$ -o comm='
+
+## User & user privileges
+## 'whoamii'
+## 'id'
 
 ## Commands used for identifying network interface 
-'ifconfig'
+## 'ifconfig'
 
 ## Commands used for USB/Bluetooth interface Enumeration (Physical Attack Surface
-'system_profiler SPUSBDataType'
-'system_profiler SPBluetoothDataType'
+## 'system_profiler SPUSBDataType'
+## 'system_profiler SPBluetoothDataType'
