@@ -23,21 +23,21 @@ system (macOS, Linux, or Windows) using native OS tools.
 ## Commands used for:
 
 ## operating system,kernel and hardware architecture 
-## 'sw_vers'
-## 'uname -a'
+'sw_vers'
+'uname -a'
 
 ## Shell information
-## 'echo $SHELL'
-## 'cat /etc/shells'
-## 'ps -p $$ -o comm='
+'echo $SHELL'
+'cat /etc/shells'
+'ps -p $$ -o comm='
 
 ## User & user privileges
-## 'whoamii'
-## 'id'
+'whoamii'
+'id'
 
 ## Commands used for identifying network interface 
-## 'ifconfig'
+'ifconfig'
 
 ## Commands used for USB/Bluetooth interface Enumeration (Physical Attack Surface
-## 'system_profiler SPUSBDataType'
-## 'system_profiler SPBluetoothDataType'
+'system_profiler SPUSBDataType'
+'system_profiler SPBluetoothDataType'
