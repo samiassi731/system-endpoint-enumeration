@@ -38,6 +38,6 @@ system (macOS, Linux, or Windows) using native OS tools.
 ## Commands used for identifying network interface 
 'ifconfig'
 
-## Commands used for USB/Bluetooth interface Enumeration (Physical Attack Surface
+## Commands used for USB/Bluetooth interface Enumeration (Physical Attack Surface)
 'system_profiler SPUSBDataType'
 'system_profiler SPBluetoothDataType'
